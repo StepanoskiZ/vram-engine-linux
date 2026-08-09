@@ -78,7 +78,7 @@ static void on_library_load() {
     {
         std::lock_guard<std::recursive_mutex> lock(g_hook_mutex);
         if (!g_vram) {
-            g_vram = new VirtualMemoryEngine(32768, 131072, 16, 524288, "/tmp/bosch_vram_swap");
+            g_vram = new VirtualMemoryEngine(32768, 131072, 16, 524288, "/tmp/vram_swap");
             if (g_vram->begin()) {
                 printf("[V-RAM HOOK] 🚀 Shared Library ucitana! S-OS V-RAM Engine spreman.\n");
             }
