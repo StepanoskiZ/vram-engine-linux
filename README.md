@@ -1,8 +1,10 @@
 # ⚡ S-OS V-RAM Engine™ (Linux / POSIX Edition)
 
 ![License](https://img.shields.io/badge/License-Community_Edition-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Linux_|_Yocto_|_Ubuntu-orange.svg)
-![Downloads](https://img.shields.io/github/downloads/StepanoskiZ/vram-engine-linux/total?color=emerald)
+![Platform](https://img.shields.io/badge/Platform-Linux_|_Yocto_|_Ubuntu_|_Debian-orange.svg)
+![Integrity](https://img.shields.io/badge/Data_Integrity-100%25_Bit--Exact-brightgreen.svg)
+![Throughput](https://img.shields.io/badge/Throughput->21_MB/s-emerald.svg)
+[![Downloads](https://img.shields.io/github/downloads/StepanoskiZ/vram-engine-linux/total?color=emerald&logo=github)](https://github.com/StepanoskiZ/vram-engine-linux/releases)
 
 **Eliminate Out-Of-Memory (OOM) crashes and protect your eMMC Flash wear.**  
 S-OS V-RAM Engine™ is a high-performance, dynamic C++ virtual memory paging system designed for Embedded Linux devices, Automotive Telematics (TCU), and IoT Gateways. Powered by the proprietary **S-OS Adaptive Compression Engine™**, it extends physical RAM capacity while drastically reducing storage wear.
